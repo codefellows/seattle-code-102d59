@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h1>JS is Awesome!</h1>
+    </header>
+    <!-- use this tag to add JS to your site! -->
+    <script>
+      let user = prompt('Who are you?'); //  the value returned will always be a string.
+      console.log('The user typed this', user);
+
+      let userReady = confirm('Are you ready to see my website?');
+      console.log('The user is ready??', userReady);
+      if (userReady) {
+        document.write('<p>Here is your name! ' + user + '</p>');
+      } else {
+        document.write('<p>Come back when your ready</p>');
+      }
+
+      let banana = 10 + 10; // the '=' is the assignment operator.
+      console.log('Here is the banana value', banana); // use console.log outputs values to the JS console in the browser
+      let theString10 = "10";
+      let someRandomString = "I am a string :)";
+      let theValueFalse = false;
+      let theValueTrue = true;
+
+      console.log('The value false', theValueFalse);
+
+      // conditional statement: uses comparison operators
+      if (theString10 === "9") {
+        console.log('Great!');
+      } else {
+        console.log('ugh oh');
+      }
+    </script>
+  </body>
+</html>
