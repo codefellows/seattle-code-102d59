@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <!-- head element is where meta data goes: information about what's in this webpage -->
+  <head>
+    <!-- style element, css goes here -->
+    <style>
+      h1 {
+        color: gold;
+      }
+      p {
+        color: goldenrod;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+      }
+      img {
+        height: 200px;
+      }
+      li {
+        /* float: left; // -> puts this element to the left of something it would normally sit on to of. */
+        display: inline-block;
+      }
+      header, main, footer {
+        /* margin-left: 60px; */
+        margin: 0 auto;
+        width: 900px;
+        border: thin solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Dogs!!</h1>
+      <p>A website all about dogs</p>
+      <nav>
+        <ul>
+          <li>
+            <!-- target="_blank" opens in a new browser tab -->
+            <a href="https://google.com" target="_blank">Google</a>
+          </li>
+          <li>
+            <a href="https://amazon.com" target="_blank">Amazon</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img src="puppies.jpg">
+      <img src="https://cdn.britannica.com/79/232779-050-6B0411D7/German-Shepherd-dog-Alsatian.jpg">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGjK1rAB8-k1diQjSU6gnv8VofKnziT7mwF-UeYmNgnQ&s">
+      <p>Dogs are awesome. They are mans best friend.</p>
+    </main>
+    <footer>
+      <p>&copy; Code Fellows 102d59</p>
+    </footer>
+  </body>
+</html>
